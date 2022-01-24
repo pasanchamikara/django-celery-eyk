@@ -2,6 +2,10 @@
  Example Django project using Celery
 ==============================================================
 
+Credits: Originally from https://github.com/celery/celery/tree/master/examples/django
+
+Modified the app file just to add a hello-world end point (/api-check/) for validation.
+
 Contents
 ========
 

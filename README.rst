@@ -2,6 +2,8 @@
  Example Django project using Celery
 ==============================================================
 
+* For sqlite testing, we can implement migration through the docker file via adding another command. `python manage.py makemigrations` and `python manage.py migrate`
+
 Credits: Originally from https://github.com/celery/celery/tree/master/examples/django
 
 Modified the app file just to add a hello-world end point (/api-check/) for validation.
